@@ -40,11 +40,11 @@ _TODO: Show your game to the world, animated GIFs recommended!._
 
 ### Developers
 
- - Alejandro Belmonte ([sarkamist](#https://github.com/sarkamist/)) - 
- - Pau Bofi ([PauBofi](#https://github.com/PauBofi)) - $(Role/Tasks Developed)
- - Luca De Marco ([LukeByMark](#https://github.com/LukeByMark)) - $(Role/Tasks Developed)
- - Laia Campos ([Loyan06](#https://github.com/Loyan06)) - $(Role/Tasks Developed)
- - Francina Suñer ([r3daveng3r](#https://github.com/r3daveng3r)) - $(Role/Tasks Developed)
+ - Alejandro Belmonte ([https://github.com/sarkamist/](sarkamist)) - 
+ - Pau Bofi ([https://github.com/PauBofi](PauBofi)) - $(Role/Tasks Developed)
+ - Luca De Marco ([https://github.com/LukeByMark](LukeByMark)) - $(Role/Tasks Developed)
+ - Laia Campos ([https://github.com/Loyan06](Loyan06)) - $(Role/Tasks Developed)
+ - Francina Suñer ([https://github.com/r3daveng3r][r3daveng3r]) - $(Role/Tasks Developed)
 
 ### Links
 
