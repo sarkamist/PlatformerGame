@@ -4,35 +4,20 @@
 
 ### Description
 
-The goal is developing a simple 2D platformer game. There must be a main character moving and jumping
-around while picking up coins to increment the score.
+$(Your Game Description)
 
 ### Features
 
-#### Main Features
- - Game start and end logic: 3 scenes
-   - Title scene (press ENTER to start) -> NAME: Title
-   - Gameplay scene -> NAME: Gameplay
-   - Ending scene (shown on dying, show ending message and final score) -> NAME: Ending
- - Player movement and jump between platforms
-   - Jump power-up: Higher jump
- - Player double jump
- - Coins pick-up by Player
-   - Multiple coin types, different value
-   - Score increments by coins value
- - Minimum UI showing score and required start-end messages
- 
-#### Additional Features
- - Player walk/jump/die animations
- - Audio: jump fx, background music
+ - $(Game Feature 01)
+ - $(Game Feature 02)
+ - $(Game Feature 03)
 
 ### Controls
 
 Keyboard:
- - WASD and Arrow Keys for player movement
- - SPACE for player jump
- - ENTER to start/restart Game
- - ESCAPE to exit game and close program
+ - $(Game Control 01)
+ - $(Game Control 02)
+ - $(Game Control 03)
 
 ### Screenshots
 
@@ -40,11 +25,9 @@ _TODO: Show your game to the world, animated GIFs recommended!._
 
 ### Developers
 
- - Alejandro Belmonte ([https://github.com/sarkamist/](sarkamist)) - 
- - Pau Bofi ([https://github.com/PauBofi](PauBofi)) - $(Role/Tasks Developed)
- - Luca De Marco ([https://github.com/LukeByMark](LukeByMark)) - $(Role/Tasks Developed)
- - Laia Campos ([https://github.com/Loyan06](Loyan06)) - $(Role/Tasks Developed)
- - Francina Suñer ([https://github.com/r3daveng3r][r3daveng3r]) - $(Role/Tasks Developed)
+ - $(Developer 01) - $(Role/Tasks Developed)
+ - $(Developer 02) - $(Role/Tasks Developed)
+ - $(Developer 03) - $(Role/Tasks Developed)
 
 ### Links
 
