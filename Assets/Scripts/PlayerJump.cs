@@ -1,3 +1,4 @@
+using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 
 public class PlayerJump : MonoBehaviour
@@ -6,6 +7,8 @@ public class PlayerJump : MonoBehaviour
     public float DistanceToMaxHeight;
     public float SpeedHorizontal;
     public float PressTimeToMaxJump;
+    public int MaxJumps = 2;
+    public int remainingJumps;
 
     public float WallSlideSpeed = 1;
     public ContactFilter2D filter;
@@ -21,12 +24,15 @@ public class PlayerJump : MonoBehaviour
     {
         rigidbody = GetComponent<Rigidbody2D>();
         collisionDetection = GetComponent<CollisionDetection>();
+        remainingJumps = MaxJumps;
     }
     void FixedUpdate()
     {
         if (IsPeakReached()) TweakGravity();
 
         if (IsWallSliding) SetWallSlide();
+
+        if (collisionDetection.IsGrounded) remainingJumps = MaxJumps;
     }
 
     private bool IsPeakReached()
@@ -52,7 +58,7 @@ public class PlayerJump : MonoBehaviour
 
     public void OnJumpStarted()
     {
-        if (collisionDetection.IsGrounded)
+        if (collisionDetection.IsGrounded || remainingJumps > 0)
         {
             SetGravity();
             var velocity = new Vector2(rigidbody.linearVelocity.x, GetJumpForce());
@@ -62,6 +68,7 @@ public class PlayerJump : MonoBehaviour
     }
     public void OnJumpFinished()
     {
+        remainingJumps--;
         float fractionOfTimePressed = 1 / Mathf.Clamp01((Time.time - jumpStartedTime) / PressTimeToMaxJump);
         rigidbody.gravityScale *= fractionOfTimePressed;
     }

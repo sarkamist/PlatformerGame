@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 23e72b1bbd097d347a3d98b47c3f7806
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4025429119860156526
+    second: Coin Pick Up_0
+  - first:
+      213: 8001773242172108815
+    second: Coin Pick Up_1
+  - first:
+      213: 3281255218505332546
+    second: Coin Pick Up_2
+  - first:
+      213: 8850766671515612043
+    second: Coin Pick Up_3
+  - first:
+      213: 5363525107706505389
+    second: Coin Pick Up_4
+  - first:
+      213: -798965587052273677
+    second: Coin Pick Up_5
+  - first:
+      213: 3244785767322892521
+    second: Coin Pick Up_6
+  - first:
+      213: 8329352347392670243
+    second: Coin Pick Up_7
+  - first:
+      213: -4250570277806671366
+    second: Coin Pick Up_8
+  - first:
+      213: 989665885295753122
+    second: Coin Pick Up_9
+  - first:
+      213: -2862652479334098721
+    second: Coin Pick Up_10
+  - first:
+      213: 3033265368110991567
+    second: Coin Pick Up_11
+  - first:
+      213: 5094144090076847243
+    second: Coin Pick Up_12
+  - first:
+      213: 5022945798768193374
+    second: Coin Pick Up_13
+  - first:
+      213: 584955180694866532
+    second: Coin Pick Up_14
+  - first:
+      213: -7595564659796262714
+    second: Coin Pick Up_15
+  - first:
+      213: 7631460238131550797
+    second: Coin Pick Up_16
+  - first:
+      213: 8948079907922983063
+    second: Coin Pick Up_17
+  - first:
+      213: -5465859003075052907
+    second: Coin Pick Up_18
+  - first:
+      213: 3744056244532114540
+    second: Coin Pick Up_19
+  - first:
+      213: 5353061396413273013
+    second: Coin Pick Up_20
+  - first:
+      213: 6146596199106319911
+    second: Coin Pick Up_21
+  - first:
+      213: 7379828512607049752
+    second: Coin Pick Up_22
+  - first:
+      213: 8197888160827264950
+    second: Coin Pick Up_23
+  - first:
+      213: -6943682672003850891
+    second: Coin Pick Up_24
+  - first:
+      213: 4049324037761649481
+    second: Coin Pick Up_25
+  - first:
+      213: -4061422001404393927
+    second: Coin Pick Up_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Coin Pick Up_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 0
+        width: 122
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 297d83a0b8dc228c0800000000000000
+      internalID: -4025429119860156526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin Pick Up_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 0
+        width: 122
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00f4e85e520c0f60800000000000000
+      internalID: 8001773242172108815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin Pick Up_2
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 0
+        width: 122
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24738648c3c598d20800000000000000
+      internalID: 3281255218505332546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin Pick Up_3
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 19
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83fd85f46d34da70800000000000000
+      internalID: 8850766671515612043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin Pick Up_4
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 109
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da82cb41ba11f6a40800000000000000
+      internalID: 5363525107706505389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin Pick Up_5
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 99
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ffdcfb180189e4f0800000000000000
+      internalID: -798965587052273677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin Pick Up_6
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 99
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e83689b67bc70d20800000000000000
+      internalID: 3244785767322892521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin Pick Up_7
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 119
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32af76344ddc79370800000000000000
+      internalID: 8329352347392670243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin Pick Up_8
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 99
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9ff725ad0f205c0800000000000000
+      internalID: -4250570277806671366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin Pick Up_9
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 119
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7306311effbbd00800000000000000
+      internalID: 989665885295753122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin Pick Up_10
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 99
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd856edacb0d548d0800000000000000
+      internalID: -2862652479334098721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin Pick Up_11
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 109
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc800c708c2581a20800000000000000
+      internalID: 3033265368110991567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin Pick Up_12
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 49
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c9fab5f0902b640800000000000000
+      internalID: 5094144090076847243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin Pick Up_13
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 49
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f6e9d579615b540800000000000000
+      internalID: 5022945798768193374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin Pick Up_14
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 29
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a87da33ad2e1800800000000000000
+      internalID: 584955180694866532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin Pick Up_15
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 39
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c045585f22279690800000000000000
+      internalID: -7595564659796262714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin Pick Up_16
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 19
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a595347a468e960800000000000000
+      internalID: 7631460238131550797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin Pick Up_17
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 39
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7983f8d6447fd2c70800000000000000
+      internalID: 8948079907922983063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin Pick Up_18
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 19
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a3751323e5524b0800000000000000
+      internalID: -5465859003075052907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin Pick Up_19
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 39
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c647b6a415f85f330800000000000000
+      internalID: 3744056244532114540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin Pick Up_20
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 19
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b3d1127af4e94a40800000000000000
+      internalID: 5353061396413273013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin Pick Up_21
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 39
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7269f715da81d4550800000000000000
+      internalID: 6146596199106319911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin Pick Up_22
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 19
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8181e35aeea6a6660800000000000000
+      internalID: 7379828512607049752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin Pick Up_23
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 49
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf4d7619dfb4c170800000000000000
+      internalID: 8197888160827264950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin Pick Up_24
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 29
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ddc26266513af90800000000000000
+      internalID: -6943682672003850891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin Pick Up_25
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 19
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94bcb3312c6123830800000000000000
+      internalID: 4049324037761649481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin Pick Up_26
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 19
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936c553453ee2a7c0800000000000000
+      internalID: -4061422001404393927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Coin Pick Up_0: -4025429119860156526
+      Coin Pick Up_1: 8001773242172108815
+      Coin Pick Up_10: -2862652479334098721
+      Coin Pick Up_11: 3033265368110991567
+      Coin Pick Up_12: 5094144090076847243
+      Coin Pick Up_13: 5022945798768193374
+      Coin Pick Up_14: 584955180694866532
+      Coin Pick Up_15: -7595564659796262714
+      Coin Pick Up_16: 7631460238131550797
+      Coin Pick Up_17: 8948079907922983063
+      Coin Pick Up_18: -5465859003075052907
+      Coin Pick Up_19: 3744056244532114540
+      Coin Pick Up_2: 3281255218505332546
+      Coin Pick Up_20: 5353061396413273013
+      Coin Pick Up_21: 6146596199106319911
+      Coin Pick Up_22: 7379828512607049752
+      Coin Pick Up_23: 8197888160827264950
+      Coin Pick Up_24: -6943682672003850891
+      Coin Pick Up_25: 4049324037761649481
+      Coin Pick Up_26: -4061422001404393927
+      Coin Pick Up_3: 8850766671515612043
+      Coin Pick Up_4: 5363525107706505389
+      Coin Pick Up_5: -798965587052273677
+      Coin Pick Up_6: 3244785767322892521
+      Coin Pick Up_7: 8329352347392670243
+      Coin Pick Up_8: -4250570277806671366
+      Coin Pick Up_9: 989665885295753122
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
