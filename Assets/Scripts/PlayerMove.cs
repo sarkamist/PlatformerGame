@@ -8,6 +8,8 @@ public class PlayerMove : MonoBehaviour
 
     Rigidbody2D rigidbody;
     private float horizontalDir; // Horizontal move direction value [-1, 1]
+    private float lastDir;
+    public bool IsMoving;
 
     void Start()
     {
@@ -27,6 +29,19 @@ public class PlayerMove : MonoBehaviour
         // Read value from control, the type depends on what
         // type of controls the action is bound to
         var inputVal = value.Get<Vector2>();
-        horizontalDir = inputVal.x;
+        if (inputVal != null && inputVal.x != 0)
+        {
+            horizontalDir = inputVal.x;
+            lastDir = inputVal.x;
+        }
+
+        if (IsMoving == false && lastDir != 0)
+        {
+            IsMoving = true;
+        }
+        else
+        {
+            IsMoving = false;
+        }
     }
 }
