@@ -1,1 +1,31 @@
-Place here all the licenses for your assets:
+###############################################################################
+
+    Platformer Terrain Tileset
+	© 2026 by Luca De Marco is licensed under CC BY-NC-SA 4.0.
+	To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+###############################################################################
+
+    PowerUp Orb Sprites
+	© 2026 by Luca De Marco is licensed under CC BY-NC-SA 4.0.
+	To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+###############################################################################
+
+    Coin Sprites
+	© 2026 by Luca De Marco is licensed under CC BY-NC-SA 4.0.
+	To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+###############################################################################
+	
+    Sea Background Sprite
+	© 2026 by Luca De Marco is licensed under CC BY-NC-SA 4.0.
+	To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+###############################################################################
+	
+    Gustave le Frog Sprites
+	© 2026 by Francina Suñer Móra is licensed under CC BY-NC-SA 4.0.
+	To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+###############################################################################

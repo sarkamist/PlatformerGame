@@ -174,12 +174,21 @@
             "id": "859790c2-e08b-4e07-b02e-cf592191654f",
             "actions": [
                 {
-                    "name": "New action",
+                    "name": "ExitGame",
                     "type": "Button",
                     "id": "3aab717e-ada1-46e7-8e55-d0b429b14d7b",
                     "expectedControlType": "",
                     "processors": "",
-                    "interactions": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "StartGame",
+                    "type": "Button",
+                    "id": "8fbd7a8e-6e47-486e-871f-542686650ccf",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
                     "initialStateCheck": false
                 }
             ],
@@ -187,11 +196,22 @@
                 {
                     "name": "",
                     "id": "f465dfa5-bda3-4532-9fd2-c86815b15335",
-                    "path": "",
+                    "path": "<Keyboard>/escape",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "ExitGame",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "576bf0bd-d31a-4d44-b5b2-c6d40e3a6a66",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StartGame",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
