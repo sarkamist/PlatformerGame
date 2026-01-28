@@ -26,6 +26,6 @@ public class ScoreText : MonoBehaviour
 
     private void UpdateScoreText(int score)
     {
-        label.text = score.ToString();
+        label.text = $"SCORE: {score.ToString()} / 15";
     }
 }

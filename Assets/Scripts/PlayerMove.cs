@@ -6,14 +6,15 @@ public class PlayerMove : MonoBehaviour
     [SerializeField]
     private float Speed = 5.0f;
 
-    Rigidbody2D rigidbody;
-    private float horizontalDir; // Horizontal move direction value [-1, 1]
-    private float lastDir;
-    public bool IsMoving;
+    private Rigidbody2D rigidbody;
+    private Animator animator;
+    private float horizontalDir;
+    private float lastDir = 0;
 
     void Start()
     {
         rigidbody = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     void FixedUpdate()
@@ -21,27 +22,15 @@ public class PlayerMove : MonoBehaviour
         Vector2 velocity = rigidbody.linearVelocity;
         velocity.x = horizontalDir * Speed;
         rigidbody.linearVelocity = velocity;
+
+        animator.SetBool("IsWalking", (horizontalDir != 0 && lastDir != 0));
+
+        lastDir = horizontalDir;
     }
 
-    // NOTE: InputSystem: "move" action becomes "OnMove" method
     void OnMove(InputValue value)
     {
-        // Read value from control, the type depends on what
-        // type of controls the action is bound to
         var inputVal = value.Get<Vector2>();
-        if (inputVal != null && inputVal.x != 0)
-        {
-            horizontalDir = inputVal.x;
-            lastDir = inputVal.x;
-        }
-
-        if (IsMoving == false && lastDir != 0)
-        {
-            IsMoving = true;
-        }
-        else
-        {
-            IsMoving = false;
-        }
+        horizontalDir = inputVal.x;
     }
 }

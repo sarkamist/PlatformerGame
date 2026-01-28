@@ -12,6 +12,7 @@ public class PlayerJump : MonoBehaviour
     public ContactFilter2D Filter;
 
     private Rigidbody2D rigidbody;
+    private Animator animator;
     private CollisionDetection collisionDetection;
     private float lastVelocityY;
     private float jumpStartedTime;
@@ -26,10 +27,21 @@ public class PlayerJump : MonoBehaviour
     void Start()
     {
         rigidbody = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
         collisionDetection = GetComponent<CollisionDetection>();
 
         RemainingJumps = MaxJumps;
     }
+    private void OnEnable()
+    {
+        PowerUp.OnPowerUpCollected += ApplyJumpBoost;
+    }
+
+    private void OnDisable()
+    {
+        PowerUp.OnPowerUpCollected -= ApplyJumpBoost;
+    }
+
     void FixedUpdate()
     {
         if (IsPeakReached()) TweakGravity();
@@ -37,6 +49,8 @@ public class PlayerJump : MonoBehaviour
         if (IsWallSliding) SetWallSlide();
 
         if (collisionDetection.IsGrounded) RemainingJumps = MaxJumps;
+
+        animator.SetBool("IsJumping", IsJumping);
     }
 
     private void Update()
@@ -98,5 +112,10 @@ public class PlayerJump : MonoBehaviour
     private float GetJumpForce()
     {
         return 2 * JumpHeight * SpeedHorizontal / DistanceToMaxHeight;
+    }
+
+    private void ApplyJumpBoost(PowerUp powerUp)
+    {
+        JumpHeight *= 2;
     }
 }
