@@ -42,14 +42,6 @@ public class CollisionDetection : MonoBehaviour
     private float groundAngle;
     public float GroundAngle { get { return groundAngle; } }
 
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(GroundCheckPoint.position, checkRadius);
-        Gizmos.DrawWireSphere(FrontCheckPoint.position, checkRadius);
-        Gizmos.color = Color.white;
-    }
-
     void FixedUpdate()
     {
         CheckCollisions();

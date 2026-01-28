@@ -1,7 +1,5 @@
-using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class SceneChanger : MonoBehaviour
 {
@@ -10,7 +8,6 @@ public class SceneChanger : MonoBehaviour
     private readonly string titleScene = "Title";
     private readonly string gameplayScene = "Gameplay";
     private readonly string endingScene = "Ending";
-    private string currentScene;
 
     private void Awake()
     {
@@ -22,8 +19,6 @@ public class SceneChanger : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
-
-            currentScene = SceneManager.GetActiveScene().name;
         }
     }
 
@@ -32,15 +27,14 @@ public class SceneChanger : MonoBehaviour
         ScoreSystem.OnScoreUpdated += OnScoreUpdated;
         PlayerDeathBehaviour.OnPlayerDeath += OnPlayerDeath;
     }
-
     private void OnDisable()
     {
         ScoreSystem.OnScoreUpdated -= OnScoreUpdated;
         PlayerDeathBehaviour.OnPlayerDeath -= OnPlayerDeath;
     }
-
     public void OnStartGame()
     {
+        string currentScene = SceneManager.GetActiveScene().name;
         if (currentScene == titleScene && currentScene != gameplayScene)
         {
             SceneManager.LoadScene(gameplayScene);
@@ -49,17 +43,19 @@ public class SceneChanger : MonoBehaviour
 
     private void OnScoreUpdated(int score)
     {
-        Debug.Log(score);
-        if (score >= 15)
+        string currentScene = SceneManager.GetActiveScene().name;
+        if (currentScene == gameplayScene && score >= 15)
         {
             SceneManager.LoadScene(endingScene);
         }
     }
-
     private void OnPlayerDeath(GameObject player)
     {
-        Debug.Log("test");
-        SceneManager.LoadScene(endingScene);
+        string currentScene = SceneManager.GetActiveScene().name;
+        if (currentScene == gameplayScene)
+        {
+            SceneManager.LoadScene(endingScene);
+        }
     }
 
     private void OnExitGame()
@@ -70,6 +66,4 @@ public class SceneChanger : MonoBehaviour
         Application.Quit();
         #endif
     }
-
-    
 }

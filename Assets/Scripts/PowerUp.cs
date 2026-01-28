@@ -7,13 +7,14 @@ public class PowerUp : MonoBehaviour
 
     private Animator animator;
 
-    private void Start()
+    private void Awake()
     {
         animator = GetComponent<Animator>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.PowerUpUse);
         OnPowerUpCollected?.Invoke(this);
 
         animator.SetBool("IsPickedUp", true);

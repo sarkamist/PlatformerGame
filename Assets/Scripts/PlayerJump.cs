@@ -3,11 +3,16 @@ using UnityEngine;
 
 public class PlayerJump : MonoBehaviour
 {
+    [Header("Jumping")]
+    public bool IsJumping = false;
+    public int MaxJumps = 2;
+    public int RemainingJumps;
     public float JumpHeight;
     public float DistanceToMaxHeight;
     public float SpeedHorizontal;
     public float PressTimeToMaxJump;
 
+    [Header("Wall Slide")]
     public float WallSlideSpeed = 1;
     public ContactFilter2D Filter;
 
@@ -18,11 +23,6 @@ public class PlayerJump : MonoBehaviour
     private float jumpStartedTime;
 
     bool IsWallSliding => collisionDetection.IsTouchingFront;
-
-    [Header("Jumping Parameters")]
-    public bool IsJumping = false;
-    public int MaxJumps = 2;
-    public int RemainingJumps;
 
     void Start()
     {
@@ -49,8 +49,6 @@ public class PlayerJump : MonoBehaviour
         if (IsWallSliding) SetWallSlide();
 
         if (collisionDetection.IsGrounded) RemainingJumps = MaxJumps;
-
-        animator.SetBool("IsJumping", IsJumping);
     }
 
     private void Update()
@@ -59,6 +57,8 @@ public class PlayerJump : MonoBehaviour
         {
             OnJumpFinished();
         }
+
+        animator.SetBool("IsJumping", IsJumping);
     }
 
     private bool IsPeakReached()
@@ -84,6 +84,9 @@ public class PlayerJump : MonoBehaviour
     {
         if (collisionDetection.IsGrounded || RemainingJumps > 0)
         {
+            if (RemainingJumps > 1) AudioManager.Instance.PlaySFX(AudioManager.Instance.JumpStart);
+            else AudioManager.Instance.PlaySFX(AudioManager.Instance.DoubleJump);
+
             SetGravity();
             var velocity = new Vector2(rigidbody.linearVelocity.x, GetJumpForce());
             rigidbody.linearVelocity = velocity;
@@ -94,7 +97,8 @@ public class PlayerJump : MonoBehaviour
     }
     public void OnJumpFinished()
     {
-        if (IsJumping) {
+        if (IsJumping)
+        {
             float fractionOfTimePressed = 1 / Mathf.Clamp01((Time.time - jumpStartedTime) / PressTimeToMaxJump);
             rigidbody.gravityScale *= fractionOfTimePressed;
 

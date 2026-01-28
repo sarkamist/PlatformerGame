@@ -9,13 +9,14 @@ public class Coin : MonoBehaviour
 
     private Animator animator;
 
-    private void Start()
+    private void Awake()
     {
         animator = GetComponent<Animator>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.CoinPickUp);
         OnCoinCollected?.Invoke(this);
 
         animator.SetBool("IsPickedUp", true);
